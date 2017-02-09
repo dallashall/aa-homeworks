@@ -1,4 +1,9 @@
 class Person < ActiveRecord::Base
+  validates(
+    :name, presence: true,
+    uniqueness: true
+  )
+
   belongs_to(
     :house,
     :class_name => "House",

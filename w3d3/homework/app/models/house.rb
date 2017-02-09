@@ -1,4 +1,7 @@
 class House < ActiveRecord::Base
+  validates(
+    :address, presence: true, uniqueness: true
+  )
   has_many(
     :people,
     :class_name => "Person",
