@@ -41,6 +41,33 @@
         <li>Cook it 'til its done.</li>
       </ol>
     </section>
+    <section id="reviews">
+      <h2>Reviews</h2>
+      <form class="" action="/reviews" method="post">
+        <label for="reviewer-name">Reviewer Name</label>
+        <input type="text" name="reviewer-name" id="reviewer-name" value="">
+
+        <label for="rating">Rate this Recipe</label>
+        1<input type="radio" name="rating" value="1">
+        2<input type="radio" name="rating" value="2">
+        3<input type="radio" name="rating" value="3">
+        4<input type="radio" name="rating" value="4">
+        5<input type="radio" name="rating" value="5">
+
+        <label for="cooking-expertise">Cooking Expertise</label>
+        <select class="" name="cooking-expertise" id="cooking-expertise">
+          <option value="select" selected disabled>--select--</option>
+          <option value="sometimes">Sometimes Cook</option>
+          <option value="everyday">Cook Everyday</option>
+          <option value="hobby">Cook as a Hobby</option>
+          <option value="pro">Pro Chef</option>
+        </select>
+
+        <label for="review">Review:<textarea name="review" rows="8" cols="80"></textarea></label>
+
+        <input type="submit" value="submit">
+      </form>
+    </section>
     <footer>
       <p>
         Original Recipe by <a href="http://dallashall.tech/">Me</a>
