@@ -1,0 +1,59 @@
+# Logfile created on 2017-02-15 23:30:25 -0800 by logger.rb/54362
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] WARN : No configuration file found. Working directory = /Users/dallas/code/homeworks/w4d4/solution
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] WARN : Looked in these locations (based on defaults): /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/.newrelic/newrelic.yml, /Users/dallas/newrelic.yml
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Environment: development
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Dispatcher: webrick
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Application: development
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing ActiveJob instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Net instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Rails 4 view instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-15 23:30:25 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Finished instrumentation
+[2017-02-15 23:30:26 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-02-15 23:30:45 -0800 Dallass-MacBook-Pro.local (89283)] ERROR : Invalid license key, please contact support@newrelic.com
+[2017-02-15 23:30:45 -0800 Dallass-MacBook-Pro.local (89283)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] WARN : No configuration file found. Working directory = /Users/dallas/code/homeworks/w4d4/solution
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] WARN : Looked in these locations (based on defaults): /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/.newrelic/newrelic.yml, /Users/dallas/newrelic.yml
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Environment: development
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : No known dispatcher detected.
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Application: development
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing ActiveJob instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Net instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-15 23:49:51 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-15 23:49:52 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Rails 4 view instrumentation
+[2017-02-15 23:49:52 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-15 23:49:52 -0800 Dallass-MacBook-Pro.local (89625)] INFO : Finished instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Starting the New Relic agent in "development" environment.
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] WARN : No configuration file found. Working directory = /Users/dallas/code/homeworks/w4d4/solution
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] WARN : Looked in these locations (based on defaults): /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/config/newrelic.yml, /Users/dallas/code/homeworks/w4d4/solution/newrelic.yml, /Users/dallas/.newrelic/newrelic.yml, /Users/dallas/newrelic.yml
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Environment: development
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : No known dispatcher detected.
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Application: development
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing ActiveJob instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing ActiveRecord 4 instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Net instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Rails 4 Controller instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Rails 4 view instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Installing Rails 4 Error instrumentation
+[2017-02-16 00:08:24 -0800 Dallass-MacBook-Pro.local (91255)] INFO : Finished instrumentation
+[2017-02-16 07:48:13 -0800 Dallass-MacBook-Pro.local (89283)] INFO : Starting Agent shutdown
