@@ -46,3 +46,15 @@ Elephant.paradeHelper = function(elephant){
 }
 
 Elephant.paradeHelper(harry);
+
+function dinerBreakfast() {
+  let order = "I'd like cheesey scrambled eggs"
+  return function(food){
+    order += food.length === 0 ? "" : ` and ${food}`
+    console.log(`${order}, please.`)
+  }
+}
+let bFastOrder = dinerBreakfast();
+bFastOrder("biscuits");
+bFastOrder("gravy");
+bFastOrder("Coffee Cake");
