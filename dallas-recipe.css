@@ -1,7 +1,39 @@
 body {
   font-family: "Arial, sans-serif";
   background-color: rgb(240, 240, 240);
+  width: 78%;
+  margin: 0 auto;
 }
+
+input[type="radio"], input[type="select"], input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  background-image: url("assets/stars.png");
+  width: 27px;
+  height: 27px;
+  vertical-align: bottom;
+}
+
+input[type="radio"]:hover {
+  background-position: 30px;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+input:last-child {
+  background: gold;
+}
+
+input:last-child:hover {
+  background: goldenrod;
+}
+
 h1 {
   font-size: 38px;
 }
@@ -14,13 +46,30 @@ ol {
 .ingredients-list {
   list-style: square inside;
 }
-header > img {
-  width: 100px;
+
+ul.ingredients-list li {
+  margin: 15px 0;
 }
+
+header > img {
+  width: 60px;
+  float: left;
+}
+
 ul li a {
   text-decoration: none;
   color: inherit;
 }
+
+ol li {
+  margin: 15px 0;
+}
+
+/* Color every other item in directions list */
+ol li:nth-child(odd) {
+  background-color: lightgrey;
+}
+
 .user_review h4 {
   font-weight: bold;
 }
@@ -29,4 +78,35 @@ ul li a {
 }
 .user_review {
   padding: 20px 0px;
+}
+
+h2 + .user_review {
+  border-top: black solid 1px;
+}
+
+/* Navbar */
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 20px;
+}
+
+/*form styling*/
+input[type="text"], input[type="submit"], select, textarea, label {
+  display: block;
+}
+
+input[type="text"], textarea {
+  width: 500px;
+}
+
+select {
+  margin: 15px 0;
 }

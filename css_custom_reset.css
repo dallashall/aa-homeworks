@@ -1,0 +1,16 @@
+html, body, header, footer aside, section, figure, img, ul, li, h1, h2, a, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+img {
+  width: 100%;
+}
