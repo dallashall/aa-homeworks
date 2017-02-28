@@ -1,0 +1,39 @@
+/* PHASE 2: Navigation */
+
+.header-logo {
+  text-align: center;
+  padding: 10px 20px;
+  float: left;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+
+}
+
+.header-logo:hover {
+  background-color: #000;
+}
+
+
+.header-list {
+  float:right;
+}
+
+.header-list > li a{
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header-list > li {
+  float: left;
+  padding:10px 20px;
+  font-weight:400;
+  border-left: 1px solid #ccc;
+}
+
+.header-list > li:last-of-type {
+  border-right: 1px solid #ccc;
+}
+
+.header-list > li:hover {
+  background-color: black;
+}
