@@ -5,21 +5,55 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<img src="splash.jpg">
-
-	JotItDown: The Note-taking app with the Best UX. Try it Today!
-
-	<a href="#">Sign Up</a>
-	<a href="#">Sign In</a>
-	<a href="#">Sign Out</a>
-
-	<p> current_user: tupac_shakur </p>
-	<a href="#">Edit Profile</a>
-
+  <nav class="navbar row">
+    <div class="navbar">
+      <h1>JotItDown</h1>
+    </div>
+    <div class="navbar right">
+      <p>tupac_shakur</p>
+      <a href="#">Sign Up</a>
+      <a href="#">Sign In</a>
+      <a href="#">Sign Out</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <img class="hero-img" src="splash.jpg">
+      <div class="center-container">
+        <h1>
+          JotItDown
+        </h1>
+        <h2>
+          The Note-taking app with the Best UX. Try it Today!
+        </h2>
+        <form>
+          <div class="row">
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Password" />
+          </div>
+          <p>Handshake agreement, minus the handshake...</p>
+          <div class="row">
+            <input type="submit" value="Sign Up for $99" />
+          </div>
+        </form>
+      </div>
+  </section>
+  <section class="row">
+    <article class="flx-1">
+      <p><strong>Never. Forget. Again.</strong></p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </article>
+    <figure class="flx-1 right">
+      <img class="responsive-img" src="logo.png"/>
+    </figure>
+  </section>
+  <footer class="row">
 	<a href="#">about us</a>
 	<a href="#">careers</a>
 	<a href="#">contact</a>
 	<a href="index.html">home</a>
+  </footer>
+
+
 </body>
 </html>
 
